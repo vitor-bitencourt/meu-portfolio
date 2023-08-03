@@ -1,0 +1,119 @@
+@media screen and (min-width: 999px){
+  .content-sobre-mim{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding: 13%;
+  }
+  
+  .content-sobre-mim-textos{
+    font-family: 'IBM Plex Sans Arabic', sans-serif;
+    color: #F5F5DC;
+    display: flex;
+    flex-direction: column;
+  
+  }
+  
+  .content-sobre-mim-titulo{
+    color:  #0E3A73;
+    font-size: 5rem;
+    font-weight: 600;
+  }
+  
+  .content-sobre-mim-texto{
+    font-size: 1.8rem;
+    font-weight: 400;
+    max-width: 25vw;
+  }
+  .formacao{ 
+  
+    font-weight: 500;
+  }
+  .cargo{
+    font-weight: 700;
+  }
+  .content-sobre-mim-img{
+    height: 30vh;
+  }
+}
+@media screen and (max-width: 998px){
+  .content-sobre-mim{
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+    justify-content: space-around;
+    padding: 13%;
+    padding-top: -7%;
+    height: 100vh;
+  }
+  .content-sobre-mim-textos{
+    font-family: 'IBM Plex Sans Arabic', sans-serif;
+    color: #F5F5DC;
+    display: flex;
+    flex-direction: column;
+  }
+  .content-sobre-mim-titulo{
+    color:  #0E3A73;
+    font-size: 4rem;
+    font-weight: 600;
+    text-align: center;
+  }
+  .content-sobre-mim-texto{
+    max-width: 95vw;
+    text-align: center;
+    font-size: 2rem;
+    font-weight: 400;
+
+  }
+  .formacao{ 
+  
+    font-weight: 500;
+  }
+  .cargo{
+    font-weight: 700;
+  }
+  .content-sobre-mim-img{
+    height: 30vh;
+  }
+}
+@media screen and (max-width: 500px){
+  .content-sobre-mim{
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+    justify-content: space-around;
+    padding: 13%;
+    height: 100vh;
+    margin-bottom: 40vh;
+  }
+  .content-sobre-mim-textos{
+    font-family: 'IBM Plex Sans Arabic', sans-serif;
+    color: #F5F5DC;
+    display: flex;
+    flex-direction: column;
+  }
+  .content-sobre-mim-titulo{
+    color:  #0E3A73;
+    font-size: 3rem;
+    font-weight: 600;
+    text-align: center;
+  }
+  .content-sobre-mim-texto{
+    max-width: 95vw;
+    text-align: center;
+    font-size: 1.6rem;
+    font-weight: 400;
+
+  }
+  .formacao{ 
+  
+    font-weight: 500;
+  }
+  .cargo{
+    font-weight: 700;
+  }
+  .content-sobre-mim-img{
+    height: 30vh;
+  }
+}

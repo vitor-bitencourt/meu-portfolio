@@ -1,0 +1,118 @@
+@media screen and (min-width: 999px){
+  .content-projetos{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 14%;
+  
+  }
+  
+  .content-projetos-textos{
+    font-family: 'IBM Plex Sans Arabic', sans-serif;
+    color: #F5F5DC;
+    display: flex;
+    flex-direction: column;
+    font-size: 1.8rem;
+  }
+  
+  .content-projetos-textos-repositorio{
+    font-family: 'IBM Plex Sans Arabic', sans-serif;
+    color: #F5F5DC;
+    display: flex;
+    padding-top: 50px;
+  }
+  
+  .github-link{
+    color: #6CC4FC;
+  }
+  
+  i{
+    padding-left: 10px;
+  }
+  .content-projetos-img{
+    min-width: auto;
+    max-width: 25vw;
+    min-height: auto;
+    max-height: 30vh;
+  }
+}
+@media screen and (max-width: 998px){
+  .content-projetos{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-around;
+    padding: 15%;
+    height: 100vh;
+  }
+  .content-projetos-textos{
+    font-family: 'IBM Plex Sans Arabic', sans-serif;
+    color: #F5F5DC;
+    display: flex;
+    flex-direction: column;
+    font-size: 2rem;
+    text-align: center;
+    max-width: 95vw;
+
+    
+  }
+  .content-projetos-textos-repositorio{
+    font-family: 'IBM Plex Sans Arabic', sans-serif;
+    color: #F5F5DC;
+    margin-top: 10vh;
+    font-size: 2rem;
+
+  }
+  .github-link{
+    color: #6CC4FC;
+  }
+  i{
+    padding-left: 1vw;
+  }
+  .content-projetos-img{
+    min-width: auto;
+    max-width: 50vw;
+    min-height: auto;
+    max-height: 25vh;
+
+  }
+}
+@media screen and (max-width: 500px){
+  .content-projetos{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-around;
+    padding: 15%;
+    height: 100vh;
+  }
+  .content-projetos-textos{
+    font-family: 'IBM Plex Sans Arabic', sans-serif;
+    color: #F5F5DC;
+    display: flex;
+    flex-direction: column;
+    font-size: 1.5rem;
+    text-align: center;
+    max-width: 95vw;
+    
+  }
+  .content-projetos-textos-repositorio{
+    font-family: 'IBM Plex Sans Arabic', sans-serif;
+    color: #F5F5DC;
+    margin-top: 10vh;
+    font-size: 1.2rem;
+  }
+  .github-link{
+    color: #6CC4FC;
+  }
+  i{
+    padding-left: 0.5vw;
+  }
+  .content-projetos-img{
+    min-width: auto;
+    max-width: 50vw;
+    min-height: auto;
+    max-height: 20vh;
+  }
+}
